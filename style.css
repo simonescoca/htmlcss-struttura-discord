@@ -16,22 +16,6 @@
     width: 70%;
 }
 
-.width65{
-    width: 65%;
-}
-
-.width35{
-    width: 35%;
-}
-
-.big-sect-height{
-    height: 950px;
-}
-
-.standard-sect-height{
-    height: 700px;
-}
-
 .height100{
     height: 100%;
 }
@@ -101,4 +85,36 @@ section:last-child div.hero{
 
 main section:nth-child(even){
     background-color: lightgray;
+}
+
+main section:nth-child(2) > div.container{
+    flex-direction: row-reverse;
+}
+
+.big-sect-height{
+    height: 950px;
+}
+
+.standard-sect-height{
+    height: 700px;
+}
+
+.width65{
+    width: 65%;
+}
+
+.width35{
+    width: 35%;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.skyblue{
+    background-color: skyblue;
+}
+
+.green{
+    background-color: green;
 }

@@ -81,7 +81,7 @@ section:last-child div.hero{
 }
 
 /* ------------------------------- */
-/* main*/
+/* main sections */
 
 main section:nth-child(even){
     background-color: lightgray;
@@ -117,4 +117,21 @@ main section:nth-child(2) > div.container{
 
 .green{
     background-color: green;
+}
+
+/* ------------------------------- */
+/* footer sections */
+
+footer > section{
+    background-color: rgb(55, 55, 55);
+}
+
+footer div.container div:first-child{
+    width: calc(200% / 6);
+    background-color: pink;
+}
+
+footer div.container div:not(div:first-child){
+    width: calc(100% / 6);
+    background-color: aquamarine;
 }

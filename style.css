@@ -6,7 +6,7 @@
 }
 
 /* ------------------------------- */
-/* CSS starter pack */
+/* starter pack */
 
 .container{
     display: flex;
@@ -14,6 +14,14 @@
 
 .standard-width{
     width: 70%;
+}
+
+.big-sect-height{
+    height: 950px;
+}
+
+.standard-sect-height{
+    height: 700px;
 }
 
 .height100{
@@ -82,3 +90,7 @@ section:last-child div.hero{
 
 /* ------------------------------- */
 /* main*/
+
+main section:nth-child(even){
+    background-color: lightgray;
+}

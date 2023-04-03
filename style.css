@@ -9,3 +9,14 @@
     display: flex;
 }
 
+.standard-width{
+    width: 70%;
+}
+
+.in-flex-centered-items{
+    margin: auto;
+}
+
+.visible{
+    border: 1px dotted black;
+}

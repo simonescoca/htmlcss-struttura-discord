@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+/* ------------------------------- */
+/* CSS starter pack */
+
 .container{
     display: flex;
 }
@@ -17,6 +20,10 @@
     height: 100%;
 }
 
+.height80{
+    height: 80%;
+}
+
 .in-flex-centered-item{
     margin: auto;
 }
@@ -26,15 +33,11 @@
 }
 
 /* ------------------------------- */
+/* header section "navbar container" */
 
 header section:first-child{
     background-color: lightblue;
     height: 100px;
-}
-
-header section:last-child{
-    background-color: blue;
-    height: 600px;
 }
 
 header nav{
@@ -63,3 +66,19 @@ nav ul > li{
 nav a{
     color: black;
 }
+
+/* ------------------------------- */
+/* header section "sect-hero container" */
+
+header section:last-child{
+    background-color: blue;
+    height: 600px;
+}
+
+section:last-child div.hero{
+    width: 50%;
+    background-color: violet;
+}
+
+/* ------------------------------- */
+/* main*/

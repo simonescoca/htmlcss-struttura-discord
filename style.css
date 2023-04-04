@@ -55,6 +55,7 @@ nav div.container:nth-child(odd){
 
 nav div:nth-child(even){
     width: 50%;
+    justify-content: center;
 }
 
 nav div:first-child{
@@ -66,7 +67,7 @@ nav div:last-child{
 }
 
 nav ul.container{
-    width: 100%;
+    width: 40%;
     justify-content: space-evenly;
 }
 

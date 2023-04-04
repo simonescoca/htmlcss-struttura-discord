@@ -46,11 +46,10 @@ header nav{
 }
 
 nav div.container{
-    justify-content: center;
     align-items: center;
 }
 
-nav div:nth-child(odd){
+nav div.container:nth-child(odd){
     width: 25%;
 }
 
@@ -58,9 +57,21 @@ nav div:nth-child(even){
     width: 50%;
 }
 
+nav div:first-child{
+    justify-content: flex-start;
+}
+
+nav div:last-child{
+    justify-content: flex-end;
+}
+
+nav ul.container{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
 nav ul > li{
     list-style: none;
-    margin: 0 10px;
 }
 
 nav a{
